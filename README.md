@@ -1,12 +1,10 @@
 # scrapper
 
-A locally-running, AI-powered email scraper. It discovers websites through search engines, crawls them for contact information, and extracts publicly available email addresses — all running on your own machine.
+A locally-running, AI-powered email scraper. It discovers websites through search engines, crawls them for contact information, and extracts publicly available email addresses.
 
-I built this because manually hunting for business emails across hundreds of websites is painfully slow. This tool automates the whole thing: search, crawl, extract, and save — with optional AI assistance for smarter extraction.
+I built this because manually hunting for business emails across hundreds of websites is painfully slow. This tool is here to automate it.
 
-If you're doing B2B outreach, market research, or lead generation and need to collect publicly available contact emails at scale, this might save you a lot of time.
-
----
+If you're doing B2B outreach with zero budget, market research, or lead generation and need to collect publicly available contact emails at scale, this might save you a lot of time.
 
 ## Table of Contents
 
