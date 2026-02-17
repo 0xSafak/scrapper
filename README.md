@@ -62,7 +62,7 @@ When crawling a website, the tool can optionally look for outbound links that po
 
 - **Multiple search backends** — SearXNG (self-hosted, free, no API key), SerpAPI, or Google Custom Search
 - **Country-specific search** — Target specific markets by setting locale/language parameters per query (e.g., search through `google.co.uk`, `google.de`, `google.fr`)
-- **AI-assisted extraction** — Uses a small LLM (via [OpenRouter](https://openrouter.ai/)) to find emails that regex might miss, with classification (generic/personal) and confidence scoring
+- **AI-assisted extraction** — Uses a SLM (via [OpenRouter](https://openrouter.ai/)) to find emails that regex might miss, with classification (generic/personal) and confidence scoring
 - **Smart email filtering** — Filters out junk emails (`noreply@`, `privacy@`, `dpo@`), validates format, and prioritizes outreach-friendly addresses (`info@`, `contact@`, `sales@`)
 - **Domain filtering** — Configurable filters to skip domains that don't match your target (by TLD, domain keywords, etc.)
 - **Incremental saving** — Results are written to CSV as they're found. Ctrl+C? No problem, your data is safe.
