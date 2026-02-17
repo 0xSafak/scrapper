@@ -1,0 +1,54 @@
+{
+  "keywords": [
+    "your target keyword 1",
+    "your target keyword 2",
+    "your target keyword 3",
+    "industry + service type",
+    "niche + company type",
+    "specific service provider",
+    "B2B + your industry",
+    "wholesale + your niche"
+  ],
+  "minRelevanceScore": 2,
+  "discovery": {
+    "provider": "searxng",
+    "queryStrategy": "broad+markets",
+    "concurrency": 1,
+    "delayBetweenSearxngQueriesMs": 2500,
+    "resultsPerQuery": 100,
+    "topMarkets": [
+      { "name": "United Kingdom", "searxngLang": "en-GB", "serpGl": "gb", "serpDomain": "google.co.uk" },
+      { "name": "Germany",        "searxngLang": "de-DE", "serpGl": "de", "serpDomain": "google.de" },
+      { "name": "France",         "searxngLang": "fr-FR", "serpGl": "fr", "serpDomain": "google.fr" },
+      { "name": "Netherlands",    "searxngLang": "nl-NL", "serpGl": "nl", "serpDomain": "google.nl" },
+      { "name": "USA",            "searxngLang": "en-US", "serpGl": "us", "serpDomain": "google.com" },
+      { "name": "Australia",      "searxngLang": "en-AU", "serpGl": "au", "serpDomain": "google.com.au" }
+    ]
+  },
+  "directories": [],
+  "snowball": {
+    "enabled": false,
+    "maxDepth": 1,
+    "maxNewDomainsPerSource": 3
+  },
+  "extraction": {
+    "concurrency": 10,
+    "timeoutMs": 15000,
+    "retries": 2,
+    "retryDelaysMs": [1000, 2000],
+    "delayBetweenRequestsMs": 200,
+    "useBrowser": false,
+    "enableAiExtract": true,
+    "aiTextMaxChars": 4000,
+    "maxEmailsPerDomain": 5,
+    "openRouter": {
+      "model": "meta-llama/llama-3.1-8b-instruct:free"
+    }
+  },
+  "unrelatedKeywords": [
+    "casino",
+    "gambling",
+    "porn",
+    "betting"
+  ]
+}

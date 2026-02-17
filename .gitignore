@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment (contains API keys)
+.env
+
+# Output files (generated data)
+domains.json
+leads.csv
+leads*.csv
+*.csv
+!config.example.json
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+
+# Config (contains user-specific keywords/settings — use config.example.json as template)
+config.json
+
+# IDE / Editor
+.cursor/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Sample/test data
+domains.sample.json
